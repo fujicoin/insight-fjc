@@ -10,9 +10,19 @@
   "servicesConfig": {
     "bitcoind": {
       "spawn": {
-        "datadir": "./data",
-        "exec": "/usr/local/lib/node_modules/bitcore-node/bin/bitcoind"
+        "datadir": "/root/.fujicoin/",
+        "exec": "/root/fujicoin-bitcore/fujicoind",
+        "rpcuser": "username",
+        "rpcpassword": "password"
       }
+    },
+    "insight-ui": {
+      "routePrefix": "",
+      "apiPrefix": "api"
+    },
+    "insight-api": {
+      "routePrefix": "api",
+      "enableCache": true
     }
   }
 }
