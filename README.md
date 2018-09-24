@@ -9,8 +9,8 @@ Dependency: node v4.4.0
 ```
 cd ~/
 git clone https://github.com/fujicoin/insight-fjc.git
-mv insight-fjc/fujicoin-bitcore.tar.gz .
-tar -zxvf fujicoin-bitcore.tar.gz
+mv insight-fjc/fujicoin-bitcore-v0.13.2.tar.gz .
+tar -zxvf fujicoin-bitcore-v0.13.2.tar.gz
 mkdir .fujicoin
 mv insight-fjc/fujicoin.conf .fujicoin
 # Edit .fujicoin/fujicoin.conf  --- Change username, password
